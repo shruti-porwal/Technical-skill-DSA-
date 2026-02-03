@@ -14,6 +14,21 @@ public class Mintime {
             time += (max - arr[i]);
         }
         System.out.println(time);
+        /*int[] arr={1,3,5,2,2};
+        int max = 0;
+        int Value = 0;
+        int count = 0;
+        for(int i=0;i<=arr.length-1;i++){
+            if(arr[i] >= max) {
+                max = arr[i];
+            }
+        }
+        for(int i=0;i<=arr.length-1;i++){
+            Value = max-arr[i];
+            count = count+Value;
+        }
+        System.out.print(count);
+         */
     }
 }
- 
+// time complexity = O(n)
